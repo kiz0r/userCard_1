@@ -24,7 +24,7 @@ a:visited {
   border: 1px solid #000;
   border-radius: 10px;
   box-shadow: 2px 5px 2px black;
-  max-width: 400px;
+  max-width: 350px;
   text-align: center;
   background-color: #fff;
   margin: 70px;
@@ -45,8 +45,9 @@ a:visited {
 }
 
 .occupation {
-  margin: 10px 0px;
+  margin: 8px 0px;
   font-size: 20px;
+  font-weight: 700;
 }
 
 .salary,
@@ -55,17 +56,34 @@ a:visited {
 }
 
 .mainInfo {
-  background-color: #e5e7e9;
-  height: 250px;
+  background-color: #f4f4f4;
+  height: 200px;
 }
 
 .userName {
   font-size: 20px;
+  font-weight: 700;
+}
+
+.bio,
+.city,
+.userName {
   padding: 10px 0px;
+}
+
+.bio,
+.city {
+  font-size: 16px;
+  color: gray;
+}
+
+.bio {
+  line-height: 25px;
 }
 
 .links {
   list-style: none;
+  margin-top: 25px;
 }
 
 .link {
@@ -75,8 +93,18 @@ a:visited {
 .flex-wrap {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .flex-wrap p {
-  margin-left: 15px;
+  margin-left: 10px;
+}
+
+.status {
+  padding: 15px 0px;
+}
+
+.circle {
+  font-size: 8px;
+  color: #8ec24c;
 }

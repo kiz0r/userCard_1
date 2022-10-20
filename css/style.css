@@ -59,16 +59,24 @@ a:visited {
   height: 250px;
 }
 
+.userName {
+  font-size: 20px;
+  padding: 10px 0px;
+}
+
 .links {
   list-style: none;
 }
 
 .link {
-  background-color: #4ea4f9;
   padding: 15px 10px;
 }
 
 .flex-wrap {
   display: flex;
   justify-content: center;
+}
+
+.flex-wrap p {
+  margin-left: 15px;
 }

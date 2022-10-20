@@ -136,6 +136,7 @@ a:hover {
 
 .flex-wrap p {
   margin-left: 10px;
+  line-height: 20px;
 }
 
 .status {

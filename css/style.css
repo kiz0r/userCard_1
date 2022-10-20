@@ -57,7 +57,6 @@ a:visited {
 
 .mainInfo {
   background-color: #f4f4f4;
-  height: 200px;
 }
 
 .userName {
@@ -83,13 +82,27 @@ a:visited {
 
 .links {
   list-style: none;
-  margin-top: 25px;
 }
 
 .link {
-  padding: 15px 10px;
+  border: 2px solid #039be6;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 8px 45px;
 }
 
+.cv-wrapper {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.cv {
+  color: #039be6;
+}
+
+.offer {
+  background-color: #039be6;
+}
 .flex-wrap {
   display: flex;
   justify-content: center;

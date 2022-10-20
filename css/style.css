@@ -13,11 +13,16 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
+  transition: all 0.5s ease;
 }
 
 a:visited {
   color: inherit;
   text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 .card {
@@ -104,6 +109,17 @@ a:visited {
 
 .offer {
   background-color: #039be6;
+}
+
+.cv:hover {
+  background-color: #039be6;
+  color: #fff;
+}
+
+.offer:hover {
+  color: #039be6;
+  background-color: #fff;
+  border: 2px solid #039be6;
 }
 
 .flex-wrap {

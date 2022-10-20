@@ -89,20 +89,23 @@ a:visited {
   font-weight: 700;
   border-radius: 8px;
   padding: 8px 45px;
+  display: inline-block;
 }
 
 .cv-wrapper {
-  margin-top: 15px;
-  margin-bottom: 50px;
+  padding: 15px 0px;
+  color: #039be6;
 }
 
-.cv {
-  color: #039be6;
+.offer-wrapper {
+  padding-bottom: 15px;
+  color: #fff;
 }
 
 .offer {
   background-color: #039be6;
 }
+
 .flex-wrap {
   display: flex;
   justify-content: center;

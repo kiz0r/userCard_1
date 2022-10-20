@@ -14,13 +14,21 @@
       href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <!-- connect fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>User Cards Homework</title>
   </head>
   <body>
     <section class="card card1">
       <header class="header">
         <div class="wrapper">
-          <!-- <img src="" alt=""> -->
+          <img src="./img/avatar.png" alt="User Photo" class="avatar" />
           <h1 class="occupation">Film Director, Producer</h1>
           <p class="salary">€14/hour</p>
         </div>
@@ -28,22 +36,26 @@
       <main class="mainInfo">
         <div class="wrapper">
           <h2 class="userName">Jeffrey Abrams, 51</h2>
-          <span class="city">
+          <span class="city flex-wrap">
             <i class="fa-solid fa-location-dot"></i>
             <p class="city">New York, United States</p>
           </span>
           <p class="bio">
             Abrams was born in New York City and raised in Los Angeles
           </p>
-          <div class="links">
-            <a href="#" class="cv">View CV</a>
-            <a href="#" class="offer">Make Offer</a>
-          </div>
+          <ul class="links">
+            <li class="link-wrap">
+              <a href="" class="link cv">View CV</a>
+            </li>
+            <li class="link-wrap">
+              <a href="" class="link offer">Make Offer</a>
+            </li>
+          </ul>
         </div>
       </main>
       <footer class="footer">
         <div class="wrapper">
-          <span class="status">
+          <span class="status flex-wrap">
             <!-- ONLINE -->
             <i class="fa-solid fa-circle"></i>
             <!-- OFFLINE -->
@@ -53,12 +65,5 @@
         </div>
       </footer>
     </section>
-    <!-- connect fontawesome -->
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
-      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>

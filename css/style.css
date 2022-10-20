@@ -24,10 +24,51 @@ a:visited {
   border: 1px solid #000;
   border-radius: 10px;
   box-shadow: 2px 5px 2px black;
-  max-width: 700px;
+  max-width: 400px;
   text-align: center;
+  background-color: #fff;
+  margin: 70px;
 }
 
 .wrapper {
-  width: 80%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 1.5em;
+}
+
+.avatar {
+  border: 3px solid #000;
+  border-radius: 50px;
+}
+
+.occupation {
+  margin: 10px 0px;
+  font-size: 20px;
+}
+
+.salary,
+.status p {
+  color: gray;
+}
+
+.mainInfo {
+  background-color: #e5e7e9;
+  height: 250px;
+}
+
+.links {
+  list-style: none;
+}
+
+.link {
+  background-color: #4ea4f9;
+  padding: 15px 10px;
+}
+
+.flex-wrap {
+  display: flex;
+  justify-content: center;
 }

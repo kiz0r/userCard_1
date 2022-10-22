@@ -107,6 +107,14 @@ a:hover {
   color: #039be6;
 }
 
+.cv {
+  color: #039be6;
+}
+
+.offer {
+  color: #fff;
+}
+
 .offer-wrapper {
   padding-bottom: 15px;
   color: #fff;
@@ -136,6 +144,11 @@ a:hover {
 .flex-wrap p {
   margin-left: 10px;
   line-height: 20px;
+}
+
+.footerWrapp {
+  display: flex;
+  margin-top: auto;
 }
 
 .status {
